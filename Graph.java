@@ -144,10 +144,8 @@ public class Graph {
         graph.addEdge("S", "B", 0.5);
         graph.addEdge("T", "S", 1.0);
         graph.addEdge("B", "T", 1.0/0.51);
-        graph.addEdge("Q", "C", 1.0);
-        graph.addEdge("C", "Q", 1.0);
 
-        graph.bellmanFord("Q");
+        graph.bellmanFord("C");
 
     }
 
